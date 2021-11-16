@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./desafioform.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&family=Roboto:ital,wght@0,100;0,500;0,900;1,300&display=swap"
+        rel="stylesheet">
+    <title>Formulario</title>
+</head>
+
+<body>
+
+
+
+
+
+    <div class="container">
+
+        <h2 class="title-register">Cadastro</h2>
+        <form action="" method="post" enctype="multipart/form-data">
+
+            <label form="nome">Nome</label>
+
+            <input type="text" name="Nome" id="Nome" required>
+
+            <label form="Email">Email</label>
+
+            <input type="Email" name="email" id="Email" required>
+
+
+            <label form="idade">Idade</label>
+
+            <input type="number" name="Idade" id="idade" required min="12" step="1">
+
+
+            <label texform="data-nascimento">Data de Nascimento</b></name>
+
+                <div> <input type="date" name="data-nascimento" id="data-nascimento" required>
+
+
+                </div>
+
+
+                <label class="input-inline">Onde você possui conta:
+
+                    <div>
+
+
+
+                        <label class="input-inline">
+                            <input type="checkbox" name="instagram">
+                            Instagram
+                        </label>
+
+
+
+                        <label class="input-inline">
+                            <input type="checkbox" name="Facebook">
+                            Facebook
+                        </label>
+
+
+
+                        <label class="input-inline">
+                            <input type="checkbox" name="Youtube">
+                            Youtube
+                        </label>
+
+                    </div>
+
+
+                </label>
+
+
+
+
+                <label>
+
+                    Sexo
+                    <div>
+                        <label class="input-inline">
+                            <input type="radio" name="genero" value="Masculino">
+                            Masculino
+                        </label>
+
+
+
+                        <label class="input-inline">
+                            <input type="radio" name="genero" value="Feminino">
+                            Feminino
+                        </label>
+
+                    </div>
+                </label>
+
+
+
+                <label>Cor dos olhos
+                    <input type="color" name="cor-olhos" required>
+                </label>
+
+
+                <label>
+                    Biografia
+
+                    <textarea name="bio"></textarea>
+                </label>
+
+
+                <label>
+
+                    Foto do perfil
+
+                    <input class="input-block" type="file" name="arquivos" accept="image/*" />
+
+                </label>
+
+
+
+                <label> Telefone
+
+                    <input class="input-block" type="tel" name="Numero-de-telefone" required>
+
+                </label>
+
+                <label>
+                    Link do Perfil do Facebook
+
+                    <input class="input-block" type="url" name="link-do-facebook">
+
+                </label>
+
+
+                <label>
+                    Senha
+
+                    <input class="input-block" type="password" name="senha" required minlength="6" maxlength="8">
+
+                </label>
+
+
+
+                <button>
+
+
+                    <input class="button-clear" type="reset" name="deletar" value="Limpar" >
+
+
+                </button>
+
+                <button>
+
+                    <input class="button-submit" type="submit" name="enviar-dados" value="Enviar Dados"
+                        >
+
+                </button>
+
+
+
+
+
+
+
+
+
+
+
+
+        </form>
+    </div>
+
+</body>
+
+</html>
+
+<!--background-color: green;
+color: white;
+width: 110px;
+height: 25px;
+border: 2px solid purple;
+cursor: pointer;
+padding: 10px 20px;
+box-sizing: border-box;-->
